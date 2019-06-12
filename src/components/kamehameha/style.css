@@ -1,0 +1,21 @@
+body {
+	background-color: #33334d;
+}
+
+.stage {
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+	border: 5px double #33ff33;
+	background-color: #c2c2d6;
+	padding: 20px;
+	position: relative;
+}
+
+.image-wrapper {
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+}

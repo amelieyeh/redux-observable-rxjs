@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+code {
+  border-radius: 3px;
+  border: 1px solid #e1e1e8;
+  background-color: #f8f9fa;
+  padding: 5px;
+  display: block;
+  color: #2f6f9f;
+}
+
+.btn {
+  padding: 4px 16px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.form-control {
+  width: 180px;
+}
+
+.sidebar {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+
+.canvas {
+  width: 100%;
+  height: 90vh;
+  border: 5px solid #000;
+}
+
+.suggest-list {
+  list-style: none;
+  border: 1px solid #ccc;
+  margin-top: 0;
+  display: none;
+  width: 180px;
+  padding-left: 0;
+}
+
+.suggest-list.show {
+  display: block;
+}
+
+.suggest-list li {
+  padding: 10px;
+}
+
+.suggest-list li:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
